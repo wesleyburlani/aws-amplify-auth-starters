@@ -25,7 +25,7 @@ class SignUp extends React.Component {
         password,
         attributes: {
             email,
-            'custom:favorite_flavor': 'Cookie Dough'  // custom attribute, not standard
+           // 'custom:favorite_flavor': 'Cookie Dough'  // custom attribute, not standard
         }
     })
     .then(() => this.setState({ showConfirmation: true }))
